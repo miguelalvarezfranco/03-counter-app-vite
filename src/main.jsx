@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { PrimeraApp } from './PrimeraApp.JSX';
+//import { HolaMundo }  from './HolaMundo';
 
-//esto de abajo es una funcional component
-function App () {
-    //document.createElement....
-    return <h1>Hola mundo..!!</h1>
-}
+
+
+
 
 //para renderizar la aplicacion realizamos lo siguiente
 
 ReactDOM.createRoot( document.getElementById('root')).render(
     <React.StrictMode>
-        <App />
+        <PrimeraApp />
     </React.StrictMode>
-)
+);
 
