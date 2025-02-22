@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-
-
+import { PrimeraApp } from './PrimeraApp';
+import './styles.css';
 //import { HolaMundo }  from './HolaMundo';
 
 
-import './styles.css';
+
 
 
 
@@ -14,7 +13,10 @@ import './styles.css';
 
 ReactDOM.createRoot( document.getElementById('root')).render(
     <React.StrictMode>
-        <PrimeraApp title />
+        <PrimeraApp />
     </React.StrictMode>
 );
+
+
+
 
