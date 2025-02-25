@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { PrimeraApp } from './PrimeraApp';
+//import { PrimeraApp } from './PrimeraApp';
 import './styles.css';
+//import { CounterApp } from './CounterApp';
+import { CounterApp2 } from './CounterApp2';
 //import { HolaMundo }  from './HolaMundo';
 
 
@@ -13,7 +15,7 @@ import './styles.css';
 
 ReactDOM.createRoot( document.getElementById('root')).render(
     <React.StrictMode>
-        <PrimeraApp />
+        <CounterApp2 valor={ 30 } />
     </React.StrictMode>
 );
 
